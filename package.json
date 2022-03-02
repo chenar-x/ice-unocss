@@ -1,0 +1,22 @@
+{
+  "name": "@alifd/scaffold-lite-js",
+  "version": "0.1.0",
+  "description": "轻量级模板，使用 JavaScript，仅包含基础的 Layout。",
+  "dependencies": {
+    "@douyinfe/semi-ui": "^2.1.3",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@iceworks/spec": "^1.0.0",
+    "@unocss/preset-attributify": "^0.5.1",
+    "ice.js": "^2.1.2",
+    "unocss": "^0.14.3"
+  },
+  "scripts": {
+    "start": "./cleancss.sh && icejs start",
+    "build": "icejs build"
+  },
+  "private": true
+}
